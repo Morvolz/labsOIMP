@@ -38,8 +38,9 @@ char* itoa(int val, int radix) {
 }   
 
 int main() {
-    
+
     int val, radix;
+    cout << "value, radix: ";
     cin >> val >>  radix;
     cout << itoa(val, radix) << "\n";
     return 0;
